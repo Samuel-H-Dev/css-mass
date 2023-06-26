@@ -1,0 +1,42 @@
+#media div:nth-child(1){
+    background-color: red;
+}
+#media div:nth-child(2){
+    background-color: green;
+}
+#media div{
+    padding: 10px
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #media div:nth-child(1){
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    #media div:nth-child(2){
+        text-align: center;
+        background-color: red;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #media div:nth-child(1){
+        color: black;
+        text-align: start;
+        background-color: pink;
+        border: 10px dotted yellow;
+    }
+    #media div:nth-child(2){
+        text-align: start;
+        background-color: goldenrod;
+    border: 10px dashed pink;
+    }
+ }
+/* 
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... }  */
