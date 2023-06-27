@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-flow: wrap;
+    background-color: yellow;
+    /* flex functions are split up and let u wrap and make collums */
+    justify-content:center;
+}
+
+.flex-container div {
+    border: 3px solid black;
+    width: 30%;
+    text-align: center;
+    background-color: green;
+    flex-grow: 1;
+}
