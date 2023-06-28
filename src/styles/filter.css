@@ -1,0 +1,41 @@
+#filter .flex-container > div {
+    border: 3px solid black;
+}
+
+#filter .flex-container > div img{
+    width: 100%
+}
+
+#filter .flex-container > div:nth-child(1){
+    filter: blur(10px);
+}
+#filter .flex-container > div:nth-child(2){
+    filter: brightness(3);
+}
+#filter .flex-container > div:nth-child(3){
+    filter: contrast(.5);
+}
+#filter .flex-container > div:nth-child(4){
+    filter: grayscale(1);
+}
+#filter .flex-container > div:nth-child(5){
+    filter:hue-rotate(300deg)
+}
+#filter .flex-container > div:nth-child(6){
+    filter: invert(1);
+}
+
+#filter .flex-container > div:nth-child(7){
+    filter:opacity(80%)
+}
+
+#filter .flex-container > div:nth-child(8){
+    filter:saturate(2.5)
+}
+#filter .flex-container > div:nth-child(9){
+    filter:sepia(0.8)
+}
+
+#filter .flex-container > div:nth-child(10){
+    filter:drop-shadow(16px 16px 2px rgb(4, 0, 0))
+}
